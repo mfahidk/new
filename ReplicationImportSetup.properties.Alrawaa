@@ -1,0 +1,22 @@
+#Generated From set up
+#Thu Sep 27 14:31:58 GST 2018
+jmsMsgDir=/home/admin/Adempiere/replXMLs
+isCentralServer=true
+isBackupServer=false
+jmsPort=61616
+dbPassword=adempiere
+backupSrvDir=/home/admin/Adempiere/backupSrvDir
+messageSizeLimit=400
+logLevel=fine
+jmsHost=127.0.0.1
+dbPort=9000
+isStandaloneImporter=false
+dbHost=localhost
+isMultiClient=false
+jmsMsgBackup=/home/admin/Adempiere/jmsBackups
+clientName=AL RAWAA ROASTER
+wireFormatInactivityDuration=3600000
+subscriptionName=AlRawaaShop1
+dbName=alrawashop1
+sendAsSingleMessage=true
+dbUserName=adempiere

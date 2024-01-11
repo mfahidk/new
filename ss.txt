@@ -1,0 +1,55 @@
+Details of central database connection
+DB host :localhost
+DB port :5432
+DB Name:amri
+DB user:adempiere
+DB password:adempiere
+jdbc:postgresql://localhost:5432/amri
+
+Checking DB Sysnchoronization in 10.8.0.6
+jdbc:postgresql://10.8.0.6:5432/kiwi
+---------------------------------
+Table c_payment rows in central server 4077
+Table c_payment rows in client server 4076
+
+ 1- For insertions like c_order,m_inout,c_payment...(complete transction will be recovered)
+ 2- Update central DB with client DB - like m_storage,c_cash-- (only queried rows)
+ 3- Update client DB with central DB - like m_storage,c_cash-- (only queried rows)
+ 4- For continue with next Client..
+ 5- For Fetching missed data..
+ 6- For exit..
+
+Checking DB Sysnchoronization in 192.168.0.50
+jdbc:postgresql://192.168.0.50:5432/amrimini
+
+ 1- For insertions like c_order,m_inout,c_payment...(complete transction will be recovered)
+ 2- Update central DB with client DB - like m_storage,c_cash-- (only queried rows)
+ 3- Update client DB with central DB - like m_storage,c_cash-- (only queried rows)
+ 4- For continue with next Client..
+ 5- For Fetching missed data..
+ 6- For exit..
+
+Checking DB Sysnchoronization in 10.8.0.8
+jdbc:postgresql://10.8.0.8:5432/amrikhorfakkan
+
+ 1- For insertions like c_order,m_inout,c_payment...(complete transction will be recovered)
+ 2- Update central DB with client DB - like m_storage,c_cash-- (only queried rows)
+ 3- Update client DB with central DB - like m_storage,c_cash-- (only queried rows)
+ 4- For continue with next Client..
+ 5- For Fetching missed data..
+ 6- For exit..
+
+Checking DB Sysnchoronization in 10.8.0.9
+jdbc:postgresql://10.8.0.9:5432/amrirak
+
+ 1- For insertions like c_order,m_inout,c_payment...(complete transction will be recovered)
+ 2- Update central DB with client DB - like m_storage,c_cash-- (only queried rows)
+ 3- Update client DB with central DB - like m_storage,c_cash-- (only queried rows)
+ 4- For continue with next Client..
+ 5- For Fetching missed data..
+ 6- For exit..
+Exception in thread "main" java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:454)
+	at java.lang.Integer.<init>(Integer.java:677)
+	at org.icalibrator.replication.common.DBSynchronizer.getClientDbDetails(DBSynchronizer.java:473)
+	at org.icalibrator.replication.common.DBSynchronizer.main(DBSynchronizer.java:105)

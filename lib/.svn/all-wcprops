@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/2660/posibolt/Replication/ImportExportSetup/dist/lib
+END
+Adempiere.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/2328/posibolt/Replication/ImportExportSetup/dist/lib/Adempiere.jar
+END
+javaee.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/615/posibolt/Replication/ImportExportSetup/dist/lib/javaee.jar
+END
+activemq-core-5.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/615/posibolt/Replication/ImportExportSetup/dist/lib/activemq-core-5.0.0.jar
+END
+adempiereRoot.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/2328/posibolt/Replication/ImportExportSetup/dist/lib/adempiereRoot.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/615/posibolt/Replication/ImportExportSetup/dist/lib/commons-logging.jar
+END
+postgresql.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/615/posibolt/Replication/ImportExportSetup/dist/lib/postgresql.jar
+END

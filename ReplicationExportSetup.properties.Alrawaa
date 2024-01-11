@@ -1,0 +1,34 @@
+#Generated From set up
+#Thu Sep 27 14:31:58 GST 2018
+stopRequestProcessor=true
+jmsMsgDir=/home/admin/Adempiere/replXMLs
+isCentralServer=true
+isBackupServer=false
+jmsPort=61616
+currentNext=0
+dbPassword=adempiere
+backupSrvDir=/home/admin/Adempiere/backupSrvDir
+allowReturnInAnyOrg=false
+OrgName=AL RAWAA ROASTER
+messageSizeLimit=400
+sendMsgImmediate=false
+jmsHost=127.0.0.1
+dbPort=9000
+stopAccountProcessor=false
+stopLDAPProcessor=true
+stopInOutProcessor=false
+dbHost=localhost
+isMultiClient=false
+currentNextMin=0
+jmsMsgBackup=/home/admin/Adempiere/jmsBackups
+currentNextMax=199999999
+clientName=AL RAWAA ROASTER
+isBackupServerExporter=false
+subscriptionName=AlRawaaShop1
+stopAlertProcessor=true
+stopWorkFlowProcessor=true
+stopImpProcessor=false
+stopScheduler=true
+sendAsSingleMessage=true
+dbName=alrawashop1
+dbUserName=adempiere
